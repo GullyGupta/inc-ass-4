@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face { font-family: large2; src: url('assignment3/large2.ttf' ); }
+        @font-face { font-family: machine; src: url('assignment3/machine.ttf' ); }
+        @font-face { font-family: font2; src: url('assignment3/font2.ttf' ); }
+        body{
+            background-image: url("night.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content{
+                 position: absolute;
+                top: 50%;
+                margin-left: 41%;
+                transform: translate(-50%, -50%);
+        }
+        .content img{
+            float: left;
+            height: 650px;
+            width: 550px;
+        }
+        .content form{
+            background-color:rgb(45, 56, 68);
+            float: left;
+            height: 650px;
+            width: 550px;
+        }
+        p{
+            color:whitesmoke;
+            margin-top: -2px;
+            margin-left: 20px;
+            font-family: large2;
+            font-size: 70px;
+        }
+        input{
+           display:none;
+        }
+        input{
+            display: inline;
+            padding-bottom: 9px;
+            margin-left: 10px;
+            width: 300px;
+            border-bottom:2px solid grey;
+            background-color: rgb(45, 56, 68);
+        }
+        label{
+            font-family: machine;
+            margin-left: 24px;
+            font-size: 25px;
+            padding-bottom: 9px;
+            border-bottom:2px solid grey; 
+            color: honeydew;
+        }
+    </style>
+    <title>  assignment 4  </title>
+</head>
+<body>
+    <div class="content">
+        <img src="notebooks.jpg">
+        <form action="" method="GET">
+            <p>CREATE ACCOUNT</p>
+            <label> FULL&nbsp; NAME  </label>
+            <input type="text"  names="full name" required="required" minlength="3"maxlength="15"/><br><br>
+           <label>EMAIL&nbsp; </label>
+            <input type="email"placeholder="your email" names="user email"required="required"/><br><br>
+        </form>
+    </div>
+</body>
+</htm>
